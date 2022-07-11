@@ -19,7 +19,7 @@ public class UserThread extends Thread {
             }
             if (!aSwitch.getIsOn().get()) {
                 aSwitch.setIsOn(new AtomicBoolean(true));
-                System.out.println("Поток-пользователь включил тумблер");
+                System.out.println("⏻   Поток-пользователь включил тумблер");
             }
         }
 

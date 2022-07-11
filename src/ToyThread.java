@@ -18,7 +18,7 @@ public class ToyThread extends Thread {
             }
             if (aSwitch.getIsOn().get()) {
                 aSwitch.setIsOn(new AtomicBoolean(false));
-                System.out.println("Поток-игрушка обнаружила включение и выключила тумблер");
+                System.out.println("⛔   Поток-игрушка обнаружила включение и выключила тумблер");
             }
         }
     }
